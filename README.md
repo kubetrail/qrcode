@@ -1,6 +1,10 @@
 # qrcode
 CLI: Generate QR codes embedding a string such as Bitcoin address
 
+## disclaimer
+>The use of this tool does not guarantee security or suitability
+for any particular use. Please review the code and use at your own risk.
+
 ## installation
 This step assumes you have [Go compiler toolchain](https://go.dev/dl/)
 installed on your system.
