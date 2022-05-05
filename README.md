@@ -19,7 +19,12 @@ source <(qrcode completion bash)
 ```
 
 ## usage
-Below is an example showing how a new crypto mnemonic sentence is generated
+In it's simples form a string can be encoded as a qrcode as follows:
+```bash
+echo this is input | qrcode gen
+```
+
+Below is another example showing how a new crypto mnemonic sentence is generated
 using [bip39](https://github.com/kubetrail/bip39)
 that is first saved in Google secrets engine
 using [mksecret](https://github.com/kubetrail/mksecret), 
