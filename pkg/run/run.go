@@ -34,6 +34,9 @@ func Run(cmd *cobra.Command, args []string) error {
 			}
 		}
 		input, err = mnemonics.Read(cmd.InOrStdin())
+		if err != nil {
+			return fmt.Errorf("failed to read input: %w", err)
+		}
 	}
 
 	if outputFilename == "-" {
